@@ -7,3 +7,16 @@ body {
 	max-width: 80rem;
 	
 }
+
+@media (max-width: 768px) {
+	.nav .nav__list{
+		display:  none;
+		}
+  }
+  
+ @media (min-width: 768px){
+ 
+ 
+ 
+ 
+ }
