@@ -22,8 +22,9 @@ a {
 }
 
 .logo {
-	display: block;
+	display: inline-block;
 	width: 6rem;
+	
 }
 
 .nav__list {
