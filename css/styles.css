@@ -19,22 +19,25 @@ body {
   }
   
  @media (min-width: 768px){
-	.logo{
-		
+	.logo .nav{
+		align-self:center;
 	
 	}
 	.header{
 		flex:3;
 	}
-	
 	.aside{
-		flex:1;;
+		flex:1;
+		order:3;
 	}
 	.article{
 		flex:1;
+		order:2;
 	}
-	
+	.footer{
+		flex:3;
+	}
 	
    }
    
-   
+   l
