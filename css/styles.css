@@ -5,7 +5,11 @@ body {
 .wrapper {
 	margin: 0 auto;
 	max-width: 80rem;
-	
+	display:flex;
+	flex-flow: row wrap;
+	text-align: center;
+	align-content:center;
+	flex: 1 100%;
 }
 
 @media (max-width: 768px) {
@@ -15,8 +19,22 @@ body {
   }
   
  @media (min-width: 768px){
- 
- 
- 
- 
- }
+	.logo{
+		
+	
+	}
+	.header{
+		flex:3;
+	}
+	
+	.aside{
+		flex:1;;
+	}
+	.article{
+		flex:1;
+	}
+	
+	
+   }
+   
+   
